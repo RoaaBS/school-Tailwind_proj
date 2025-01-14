@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'font-awesome/css/font-awesome.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Montserrat", serif;
+}
+.header{
+height: 700px;
+}
+button{
+    width: 160px;
+    height: 52px;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    
+}
+h4,p{
+    font-weight: 200;
+    font-size: 20px;
+
+}
+.circle{
+    /* transform: translate(72,80); */
+}
+
+@layer components{
+    .wrapper{
+        @apply max-w-[1280px] m-auto w-[90%];
+    }
+    .roww{
+        @apply max-w-[573px] max-h-[386px];
+    }
+    .navbar{
+        @apply max-w-[1322px] max-h-[91px];
+    }.join-btn{
+        @apply max-w-[120px] max-h-[42px]
+    }
+    .img{
+        @apply max-w-[400.46px] max-h-[675px]
+    }
+    .divider{
+        @apply w-[50px] h-[2px] bg-danger_color
+    }
+}
