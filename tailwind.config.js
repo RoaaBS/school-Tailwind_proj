@@ -21,6 +21,8 @@ module.exports = {
       orange_color:'#FFAB71',
       dark_color:'#2D4059',
       baby_blue:'#8EC2F2',
+      baby_pink:'#FFF2F3',
+      white_color:'#FAFAFA',
       }
     },
   },

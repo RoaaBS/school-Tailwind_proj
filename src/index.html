@@ -4,19 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
   <link href="./output.css" rel="stylesheet">
   
 </head>
-<body>
+
  
 <header class="header wrapper">
     <nav class="ml-10 flex flex-row items-center">
         <img class="2md:ml-34 " src="./assets/navbar-brand sec-.svg" alt="Brand Logo" />
         <div class=" 2md:flex  items-center w-full justify-between flex-col  2md:flex-row absolute top-[80px] bg-white  px-10 py-3 left-0 shadow 2md:shadow-none 2md:p-0 2md:static">
             <div id="menu-toggle" class=" block 2md:hidden">
-                <i class="material-icons"></i>
+                <i class="material-icons">menu</i>
             </div>
-            <ul class=" space-x-8 ml-10 mt-2 2md:flex  flex-col 2md:flex-row">
+            <ul  id="menu"class=" space-x-8 ml-10 mt-2 2md:flex  flex-col 2md:flex-row">
                 <li><a href="#" class="ml-9">Home</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Pricing</a></li>
@@ -124,7 +127,7 @@
 </div>
 
 
-<div class="layer2 2md:ml-34 ml-5 h-[715px]">
+<section class="layer2 2md:ml-34 ml-5 h-[715px]">
     <div class="2md:container 2md:w-[1050px] 2md:h-[758px]">
         <div class="row 2md:w-[1045px] 2md:h-[403px] 2md:flex flex 2md:flex-row  flex-col  mt-40">
             <div class="col-md-6 w-[517px] h-[403px]  mr-37 ">
@@ -146,11 +149,11 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="layer3 2md:ml-34 ml-5 ">
-    <div class="2md:container w-[1440px] h-[676px]">
-        <div class="row 2md:w-[1050px] 2md:h-[363px] 2md:flex flex 2md:flex-row  flex-col  2md:mt-40">
+<section class="layer3 2md:ml-34 ml-5 ">
+    <div class="2md:container w-[1440px] h-[676px] ">
+        <div class="row 2md:w-[1050px] 2md:h-[363px] 2md:flex flex 2md:flex-row  flex-col  mt-40">
             <div class="col-md-5  2md:w-[507px] 2md:h-[246px] 2md:ml-48   2md:mt-14">
                 <div class="divider  mb-3  2md:mb-9"></div>
                 <h2 class=" 2md:mb-9  w-[250px] h-[100px] text-black font-bold 2md:text-4xl text-xl ">Approdable Packages</h2>
@@ -170,9 +173,9 @@
             
         </div>
     </div>
-</div>
+</section>
 
-<div class="layer4  2md:w-[1440px] h-[1400px] 2md:h-[1152px] ml-5">
+<section class="layer4  2md:w-[1440px] h-[1400px] 2md:h-[1152px] ml-5">
     <div class="2md:container 2md:ml-48 2md:w-[1050px] h-[758px]">
         <div class="row">
             <div class="main-content mt-28 ml-1">
@@ -309,11 +312,11 @@
          
         </div>
     </div>
-</div>
+</section>
 
-<div class="layer5  2md:h-[1622px]  ml-5">
-    <div class="2md:container 2md:ml-48 2md:w-[1050px] h-[758px]">
-        <div class="row w-[1044px] h-[134px] ">
+<section class="layer5 2md:h-[1622px]  ml-5 mb-10">
+    <div class="2md:container 2md:ml-48 2md:w-[1050px]">
+        <div class="row w-[1044px] h-[134px]">
             <div class="main-content mt-28 ml-1">
                 <h6 class="text-primary_color font-bold mb-3">Practice Advice</h6>
                 <h2 class="text-base_color text-xl font-bold 2md:text-4xl mb-3">Our Experts Teacher</h2>
@@ -322,146 +325,326 @@
                 </p>
             </div>
         </div>
-       
-        <div class="row grid grid-cols-1 mt-4  gap-6 2md:grid-cols-3 2md:gap-7 2md:w-[1045px] 2md:h-[937px] ">
-            
-            <div class="col  2md:w-[328px] 2md:h-[937px]  w-[300px] h-[800px] mt-8  shadow-lg">
-               
-                <div class="card  2md:w-[330px] 2md:h-[888px] w-[330px] h-[500px] mt-9 ">
-                    <div class="relative w-[96px] h-[96px] ml-28 mr-28  ">
-                       <img src="./assets/circle sec-.svg" class="mt-12" />
+
+        <div class="row grid grid-cols-1 2md:mt-4 gap-2 2md:grid-cols-3 2md:gap-7 2md:w-[1045px] 2md:h-[937px]">
+            <div class="col 2md:w-[328px] 2md:h-[937px] w-[300px] h-[800px] mt-8 shadow-lg">
+                <div class="card 2md:w-[330px] 2md:h-[888px] w-[330px] h-[800px] mt-9">
+                    <div class="relative w-[96px] h-[96px] ml-28 mr-28">
+                        <img src="./assets/circle sec-.svg" class="mt-12" />
                     </div>
-                    <h3 class=" text-black font-bold text-2xl mt-9 ml-32">FREE</h3>
-                    <h6 class=" text-secondary_text_color font-bold text-sm mt-9 w-[147px] h-[48px] ml-20 text-center">Organize across all 
+                    <h3 class="text-black font-bold text-2xl mt-9 ml-32">FREE</h3>
+                    <h6 class="text-secondary_text_color font-bold text-sm mt-9 w-[147px] h-[48px] ml-20 text-center">Organize across all
                         apps by hand</h6>
-                        <div class="ml-32 mt-9">  <h2 class=" text-primary_color font-bold text-4xl  ">19$</h2>
-                            <h6 class=" text-baby_blue text-xs font-bold">Per Month</h6></div>
-                       
-                        <p class=" text-secondary_text_color  text-sm w-[200px] h-[40px] mt-9 ml-16">Slate helps you see how 
-                            many more days you need...</p>
-                            <button class=" w-[243px] h-[52px] bg-primary_color text-white rounded-md mt-9 ml-10">Try for free </button>
-
-                            <div class=" w-[250px] h-[236px] mt-9 ml-10">
-                                <div class=" flex flex-row w-[250px] h-[32px]">
-                                    <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                    <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold ">Unlimited product updates</h6></div>
-                                    
-                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                        <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                        <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div>
-                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                            <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                            <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div> 
-                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px] "/>
-                                            <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold">1GB  Cloud storage</h6></div>
-                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px] "/>
-                                            <h6 class=" text-xs w-[168px] h-[48px] ml-2.5 font-bold">Email and community support</h6></div>        
-                                    
-                             
-                            </div>
-                   
-                            
-                    
-                        </div>
-                       
+                    <div class="ml-32 mt-9">
+                        <h2 class="text-primary_color font-bold text-4xl">19$</h2>
+                        <h6 class="text-baby_blue text-xs font-bold">Per Month</h6>
                     </div>
-                    
-                
-                    <div class="col  2md:w-[328px] 2md:h-[937px] w-[300px] h-[800px] mt-8  shadow-lg bg-dark_color relative">
-                        <img src="./assets/circle float off sec-.svg" class="circle absolute top-[-45px] right-[-20px] w-[89px] h-[90px]" />
 
-                        <div class="card  w-[330px] h-[888px] mt-9   ">
-                            <div class="relative w-[96px] h-[96px] ml-28 mr-28  ">
-                               <img src="./assets/circle sec-.svg" class="mt-12" />
-                            </div>
-                            <h3 class=" text-white font-bold text-2xl mt-9 ml-32">FREE</h3>
-                            <h6 class=" text-white font-bold text-sm mt-9 w-[147px] h-[48px] ml-20 text-center">Organize across all 
-                                apps by hand</h6>
-                                <div class="ml-32 mt-9">  <h2 class=" text-primary_color font-bold text-4xl  ">19$</h2>
-                                    <h6 class=" text-baby_blue text-xs font-bold">Per Month</h6></div>
-                               
-                                <p class=" text-white  text-sm w-[200px] h-[40px] mt-9 ml-16">Slate helps you see how 
-                                    many more days you need...</p>
-                                    <button class=" w-[243px] h-[52px] bg-primary_color text-white rounded-md mt-9 ml-10">Try for free </button>
-        
-                                    <div class=" w-[250px] h-[236px] mt-9 ml-10">
-                                        <div class=" flex flex-row w-[250px] h-[32px]">
-                                            <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                            <h6 class=" text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div>
-                                            
-                                            <div class=" flex flex-row w-[250px] h-[32px]">
-                                                <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                                <h6 class=" text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div>
-                                            <div class=" flex flex-row w-[250px] h-[32px]">
-                                                    <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                                    <h6 class=" text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div> 
-                                            <div class=" flex flex-row w-[250px] h-[32px]">
-                                                    <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px] "/>
-                                                    <h6 class=" text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">1GB  Cloud storage</h6></div>
-                                            <div class=" flex flex-row w-[250px] h-[32px]">
-                                                    <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px] "/>
-                                                    <h6 class=" text-white text-xs w-[168px] h-[48px] ml-2.5 mb-12 font-bold">Email and community support</h6></div>        
-                                            
-                                     
-                                    </div>
-                           
-                                    
-                            
-                                </div>
-                               
-                            </div>
-                     <div class="col  2md:w-[328px] 2md:h-[937px] w-[300px] h-[800px] mt-8  shadow-lg">
-                                <div class="card  w-[330px] h-[888px] mt-9 ">
-                                    <div class="relative w-[96px] h-[96px] ml-28 mr-28  ">
-                                       <img src="./assets/circle sec-.svg" class="mt-12" />
-                                    </div>
-                                    <h3 class=" text-black font-bold text-2xl mt-9 ml-32">FREE</h3>
-                                    <h6 class=" text-secondary_text_color font-bold text-sm mt-9 w-[147px] h-[48px] ml-20 text-center">Organize across all 
-                                        apps by hand</h6>
-                                        <div class="ml-32 mt-9">  <h2 class=" text-primary_color font-bold text-4xl  ">19$</h2>
-                                            <h6 class=" text-baby_blue text-xs font-bold">Per Month</h6></div>
-                                       
-                                        <p class=" text-secondary_text_color  text-sm w-[200px] h-[40px] mt-9 ml-16">Slate helps you see how 
-                                            many more days you need...</p>
-                                            <button class=" w-[243px] h-[52px] bg-primary_color text-white rounded-md mt-9 ml-10">Try for free </button>
-                
-                                            <div class=" w-[250px] h-[236px] mt-9 ml-10">
-                                                <div class=" flex flex-row w-[250px] h-[32px]">
-                                                    <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                                    <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div>
-                                                    
-                                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                                        <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                                        <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div>
-                                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                                            <img src="./assets/circle.svg" class="w-[25px] h-[25px] "/>
-                                                            <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6></div> 
-                                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px] "/>
-                                                            <h6 class=" text-xs w-[208px] h-[48px] ml-2.5 font-bold">1GB  Cloud storage</h6></div>
-                                                    <div class=" flex flex-row w-[250px] h-[32px]">
-                                                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px] "/>
-                                                            <h6 class=" text-xs w-[168px] h-[48px] ml-2.5 font-bold">Email and community support</h6></div>        
-                                                    
-                                             
-                                            </div>
-                                   
-                                            
-                                    
-                                        </div>
-                                       
-                                    </div>
+                    <p class="text-secondary_text_color text-sm w-[200px] h-[40px] mt-9 ml-16">Slate helps you see how
+                        many more days you need...</p>
+                    <button class="2md:w-[243px] h-[52px] bg-primary_color text-white rounded-md mt-9 ml-10">Try for free</button>
+
+                    <div class="w-[250px] h-[236px] mt-9 ml-10 ">
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">1GB Cloud storage</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[168px] h-[48px] ml-2.5 font-bold">Email and community support</h6>
+                        </div>
+                    </div>
                 </div>
+            </div>
+
+            <div class="col 2md:w-[328px] 2md:h-[937px] w-[300px] h-[800px] mt-8 shadow-lg bg-dark_color relative">
+                <img src="./assets/circle float off sec-.svg" class="circle absolute top-[-45px] right-[-20px] w-[89px] h-[90px]" />
+
+                <div class="card w-[330px] h-[888px] mt-9">
+                    <div class="relative w-[96px] h-[96px] ml-28 mr-28">
+                        <img src="./assets/circle sec-.svg" class="mt-12" />
+                    </div>
+                    <h3 class="text-white font-bold text-2xl mt-9 ml-32">FREE</h3>
+                    <h6 class="text-white font-bold text-sm mt-9 w-[147px] h-[48px] ml-20 text-center">Organize across all
+                        apps by hand</h6>
+                    <div class="ml-32 mt-9">
+                        <h2 class="text-primary_color font-bold text-4xl">19$</h2>
+                        <h6 class="text-baby_blue text-xs font-bold">Per Month</h6>
+                    </div>
+
+                    <p class="text-white text-sm w-[200px] h-[40px] mt-9 ml-16">Slate helps you see how
+                        many more days you need...</p>
+                    <button class="2md:w-[243px] h-[52px] bg-primary_color text-white rounded-md mt-9 ml-10">Try for free</button>
+
+                    <div class="w-[250px] h-[236px] mt-9 ml-10 ">
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-white text-xs w-[208px] h-[48px] ml-2.5 font-bold">1GB Cloud storage</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-white text-xs w-[168px] h-[48px] ml-2.5 mb-12 font-bold">Email and community support</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col 2md:w-[328px] 2md:h-[937px] w-[300px] h-[800px] mt-8 shadow-lg">
+                <div class="card w-[330px] h-[888px] mt-9">
+                    <div class="relative w-[96px] h-[96px] ml-28 mr-28">
+                        <img src="./assets/circle sec-.svg" class="mt-12" />
+                    </div>
+                    <h3 class="text-black font-bold text-2xl mt-9 ml-32">FREE</h3>
+                    <h6 class="text-secondary_text_color font-bold text-sm mt-9 w-[147px] h-[48px] ml-20 text-center">Organize across all
+                        apps by hand</h6>
+                    <div class="ml-32 mt-9">
+                        <h2 class="text-primary_color font-bold text-4xl">19$</h2>
+                        <h6 class="text-baby_blue text-xs font-bold">Per Month</h6>
+                    </div>
+
+                    <p class="text-secondary_text_color text-sm w-[200px] h-[40px] mt-9 ml-16">Slate helps you see how
+                        many more days you need...</p>
+                    <button class="2md:w-[243px] h-[52px] bg-primary_color text-white rounded-md mt-9 ml-10">Try for free</button>
+
+                    <div class="w-[250px] h-[236px] mt-9 ml-10 ">
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">Unlimited product updates</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[208px] h-[48px] ml-2.5 font-bold">1GB Cloud storage</h6>
+                        </div>
+                        <div class="flex flex-row w-[250px] h-[32px]">
+                            <img src="./assets/circle_gray.svg" class="w-[25px] h-[25px]" />
+                            <h6 class="text-xs w-[168px] h-[48px] ml-2.5 font-bold">Email and community support</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="layer6  2md:h-[865px] 2md:w-[1440px] ">
+    <div class="2md:container  2md:w-[1050px] 2md:h-[865px]">
+        <div class="row w-[1044px] h-[134px] 2md:ml-48   ml-10">
+            <div class="main-content mt-28 ml-1">
+                <h6 class="text-primary_color font-bold mb-3">Testimonials</h6>
+                <h2 class="text-base_color text-xl font-bold 2md:text-4xl mb-3">Video in Live Action</h2>
+                <p class="text-secondary_text_color mt-2.5 mb-20 w-[463px] text-sm">
+                    Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+                </p>
+            </div>
+        </div>
+        
+        <div class="row 2md:gap-7  grid grid-cols-1 mt-4  gap-6 2md:grid-cols-2 2md:w-[1045px] 2md:h-[937px] ">
+            <div class="card2 2md:ml-48   2md:w-[508px] 2md:h-[378.01px]">
+                <img src="./assets/profile.svg" class="w-[128px] h-[128px] mt-24 ml-48"/>
+
+                <div class="col 2md:w-[508px] 2md:h-[378.01px] mt-8">
+                   
+                    <div class="card  2md:w-[458px] 2md:h-[225.01px]  mt-9 ">
+                    <p class=" w-[320px] h-[60px] text-sm text-secondary_text_color text-center ml-16 mb-4">Slate helps you see how many more days 
+                        you need to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class=" w-[130.07px] h-[22.01px] flex flex-row ml-40">
+                            <img src="./assets/icn bxs-star.svg" />
+                            <img src="./assets/icn bxs-star.svg" class="ml-1"/>
+                            <img src="./assets/icn bxs-star.svg" class="ml-1"/>
+                            <img src="./assets/icn bxs-star.svg" class="ml-1"/>
+                            <img src="./assets/icn bx-star2.svg" class="ml-1"/>
+                             </div>
+                             <div class="frame ml-40 mt-4 w-[158px] h-[53px]">
+                             <h5 class=" text-black font-bold">Regina Miles</h5>
+                             <h6 class=" text-secondary_text_color text-xs ml-8 ">Designer</h6>
+                             </div>
+                       
+    
+                       
+                                
+                        
+                            </div>
+                           
+                        </div>
+            </div>
+           
+            <div class="card2 2md:ml-48   2md:w-[508px] 2md:h-[378.01px]">
+                <img src="./assets/profile2.svg" class="w-[128px] h-[128px] mt-24 ml-48"/>
+
+                <div class="col   2md:w-[508px] 2md:h-[378.01px] mt-8">
+                   
+                    <div class="card  2md:w-[458px] 2md:h-[225.01px]  mt-9 ">
+                    <p class=" w-[320px] h-[60px] text-sm text-secondary_text_color text-center ml-16 mb-4">Slate helps you see how many more days 
+                        you need to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class=" w-[130.07px] h-[22.01px] flex flex-row ml-40">
+                            <img src="./assets/icn bxs-star.svg" />
+                            <img src="./assets/icn bxs-star.svg" class="ml-1"/>
+                            <img src="./assets/icn bxs-star.svg" class="ml-1"/>
+                            <img src="./assets/icn bxs-star.svg" class="ml-1"/>
+                            <img src="./assets/icn bx-star2.svg" class="ml-1"/>
+                             </div>
+                             <div class="frame ml-40 mt-4">
+                             <h5 class=" text-black font-bold">Regina Miles</h5>
+                             <h6 class=" text-secondary_text_color text-xs ml-8">Designer</h6>
+                             </div>
+                       
+    
+                       
+                                
+                        
+                            </div>
+                           
+                        </div>
+            </div>
+                
+          
+                     
+                </div>
+                
             </div>
       
         
 
          
-        </div>
-  
+ </section>  
 
+ <section class="layer7  2md:w-[1440px] 2md:h-[594px] ml-5 bg-baby_pink">
+    <div class="2md:container 2md:ml-48 2md:w-[1050px] h-[594px]">
+        <div class="row pt-9  ">
+            <div class="main-content  text-center  mt-40">
+                <h6 class="text-primary_color font-bold mb-3">Newsletter</h6>
+                <h2 class="text-base_color text-xl font-bold 2md:text-4xl mb-3">Our Experts Teacher</h2>
+                <p class="text-secondary_text_color mt-8 mb-8 2md:ml-72 text-center w-[463px] h-[40px] text-sm">
+                    Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+                </p>
+            </div>
+        </div>
+       
+        <div class="row grid grid-cols-2  2md:grid-cols-3  mt-28 2md:ml-44 ml-10">
+       <div class="col-md-6 w-[688px] h-[58px]">
+        <div class="input flex flex-row">
+            <form class=" "> <input type="text" placeholder="Your Email" class="2md:w-[688px] h-[58px] pl-5 text-sm"/> </form>
+            <button class=" bg-primary_color text-white w-[117px] h-[58px]"><p class="text-sm w-[72px] h-[28px] ml-5 mr-5 ">Subscribe</p></button>
+           
+        </div>
+       </div>
+
+         
+        </div>
+    </div>
+</section>
+
+
+<footer class="2md:w-[1440px] h-auto flex flex-col">
+    <div class="w-[1440px] h-auto">
+        <div class="container 2md:ml-48 ml-10 2md:w-[1050px] w-[400px] h-auto">
+            <div class="row mt-12 grid 2md:grid-cols-5 grid-cols-2 gap-8">
+                <div class="col-md-2 w-[148px] h-[170px] 2md:mr-8">
+                    <h5 class=" text-black font-bold mb-5">Company Info</h5>
+                    <div class=" text-secondary_text_color  flex flex-col ">
+                    <a class="mb-2.5  font-bold text-sm">About Us</a>
+                    <a class="mb-2.5  font-bold text-sm">Carrier</a>
+                    <a class="mb-2.5  font-bold text-sm">We are hiring</a>
+                    <a class="mb-2.5  font-bold text-sm">Blog</a>
+                </div>
+                </div>
+                <div class="col-md-2 w-[148px] h-[170px] 2md:mr-8">
+                    <h5 class=" text-black font-bold mb-5">Legal</h5>
+                    <div class=" text-secondary_text_color  flex flex-col ">
+                    <a class="mb-2.5  font-bold text-sm">About Us</a>
+                    <a class="mb-2.5  font-bold text-sm">Carrier</a>
+                    <a class="mb-2.5  font-bold text-sm">We are hiring</a>
+                    <a class="mb-2.5  font-bold text-sm">Blog</a>
+                </div>
+                </div>
+                <div class="col-md-2 w-[148px] h-[170px] 2md:mr-8">
+                    <h5 class=" text-black font-bold mb-5">Features</h5>
+                    <div class=" text-secondary_text_color  flex flex-col ">
+                    <a class="mb-2.5  font-bold text-sm">Business Marketing</a>
+                    <a class="mb-2.5  font-bold text-sm">User Analytic</a>
+                    <a class="mb-2.5  font-bold text-sm">Live Chat</a>
+                    <a class="mb-2.5  font-bold text-sm">Unlimited Support</a>
+                </div>
+                </div>
+                <div class="col-md-2 w-[148px] h-[170px] 2md:mr-8">
+                    <h5 class=" text-black font-bold mb-5">Resources</h5>
+                    <div class=" text-secondary_text_color  flex flex-col ">
+                    <a class="mb-2.5  font-bold text-sm">IOS & Android</a>
+                    <a class="mb-2.5  font-bold text-sm">Watch a Demo</a>
+                    <a class="mb-2.5  font-bold text-sm">Customers</a>
+                    <a class="mb-2.5  font-bold text-sm">API</a>
+                </div>
+                </div>
+                <div class="col-md-2">
+                    <h5 class=" text-black font-bold mb-5">Get In Touch</h5>
+                    <div class=" text-secondary_text_color  flex flex-col ">
+                        <div class=" flex flex-row mt-2.5">
+                            <img src="./assets/bx_bx-phone.svg" class="w-[24px] h-[24px]"/>
+                            <h6 class=" text-secondary_text_color font-bold text-sm ml-2.5">(480) 555-0103</h6>
+                        </div>
+                        <div class=" flex flex-row mt-2.5">
+                            <img src="./assets/bx_bx-map.svg" class="w-[24px] h-[30px]"/>
+                            <h6 class=" text-secondary_text_color font-bold text-sm   ml-2.5">4517 Washington Ave. Manchester, 
+                                Kentucky 39495</h6>
+                        </div>
+                        <div class=" flex flex-row mt-2.5">
+                            <img src="./assets/carbon_send-alt.svg" class="w-[24px] h-[26px]"/>
+                            <h6 class=" text-secondary_text_color font-bold text-sm   ml-2.5">debra.holt@example.com</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="2md:w-[1440px] w-[600px] h-[74px] bg-white_color mt-4">
+        <div class="container">
+            <div class="row pt-5 flex flex-row justify-between items-center">
+                <div class="col-md-7 2md:w-[600px] w-[400px] h-[24px] font-bold text-sm text-secondary_text_color 2md:ml-48 ml-10">
+                    Made With Love By Figmaland All Right Reserved
+                </div>
+                <div class="col-md-6 w-[236px] h-[24px] flex flex-row space-x-5">
+                    <img src="./assets/facebook.svg" />
+                    <img src="./assets/instagram.svg" />
+                    <img src="./assets/twitter.svg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>

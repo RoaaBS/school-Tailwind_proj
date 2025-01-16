@@ -11,6 +11,7 @@
   "keywords": [],
   "description": "",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "font-awesome": "^4.7.0",
     "module": "^1.2.5",
     "node": "^22.13.0",
