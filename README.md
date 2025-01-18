@@ -16,4 +16,4 @@ This project is a modern and responsive landing page built using **Tailwind CSS*
 - **Figma** (for design inspiration)
 
   
-![Landing Page Preview](assets/LandingPage.png)
+![Landing Page Preview](src/assets/LandingPage.png)
